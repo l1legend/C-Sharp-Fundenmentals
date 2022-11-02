@@ -6,3 +6,11 @@ D:\Users\mmin\source\repos\FunProject\FunProject\obj\Debug\FunProject.csproj.Sug
 D:\Users\mmin\source\repos\FunProject\FunProject\obj\Debug\FunProject.csproj.CoreCompileInputs.cache
 D:\Users\mmin\source\repos\FunProject\FunProject\obj\Debug\FunProject.exe
 D:\Users\mmin\source\repos\FunProject\FunProject\obj\Debug\FunProject.pdb
+D:\Users\mmin\Documents\GitHub\C-Fundenmentals\FunProject\FunProject\bin\Debug\FunProject.exe.config
+D:\Users\mmin\Documents\GitHub\C-Fundenmentals\FunProject\FunProject\bin\Debug\FunProject.exe
+D:\Users\mmin\Documents\GitHub\C-Fundenmentals\FunProject\FunProject\bin\Debug\FunProject.pdb
+D:\Users\mmin\Documents\GitHub\C-Fundenmentals\FunProject\FunProject\obj\Debug\FunProject.csproj.AssemblyReference.cache
+D:\Users\mmin\Documents\GitHub\C-Fundenmentals\FunProject\FunProject\obj\Debug\FunProject.csproj.SuggestedBindingRedirects.cache
+D:\Users\mmin\Documents\GitHub\C-Fundenmentals\FunProject\FunProject\obj\Debug\FunProject.csproj.CoreCompileInputs.cache
+D:\Users\mmin\Documents\GitHub\C-Fundenmentals\FunProject\FunProject\obj\Debug\FunProject.exe
+D:\Users\mmin\Documents\GitHub\C-Fundenmentals\FunProject\FunProject\obj\Debug\FunProject.pdb

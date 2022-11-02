@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Reflection;
 
 namespace FunProject
 {
@@ -53,9 +54,18 @@ namespace FunProject
             Console.WriteLine(person1.FullName() + "\n");
             Console.WriteLine("Current Task:");
 
-            person1.TaskList.ForEach(x => Console.WriteLine
-            ("TaskName:" + " " + x.TaskName + "\n" + "TaskDescription:" + " " + x.Description + "\n" 
-             + "Id:" + " " + x.Id + "\n" + "IsDone:" + " " + x.IsDone.ToString().ToLower() + "\n"));
+            //person1.TaskList.ForEach(x => Console.WriteLine
+            //("TaskName:" + " " + x.TaskName + "\n" + "TaskDescription:" + " " + x.Description + "\n"
+            // + "Id:" + " " + x.Id + "\n" + "IsDone:" + " " + x.IsDone.ToString().ToLower() + "\n"));
+            
+            foreach (var t in person1.TaskList)
+            {
+                foreach (var prop in t.GetType().GetProperties())
+                {
+                    Console.WriteLine($"{prop.Name}: {prop.GetValue(t, null).ToString()}");
+                }
+                Console.WriteLine("\n");
+            }
             Console.Read();
         }
     }

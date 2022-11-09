@@ -12,24 +12,12 @@ namespace FunProject
     {
         static void Main(string[] args)
         {
-            //Person Person1= new Person();
-            //Person1.FirstName = "Michael";
-            //Person1.LastName="Min";
-            //Person1.Age=36;           
-            //Console.WriteLine(Person1.FullName());
-
             var person1 = new Person
             {
                 FirstName = "Michael",
                 LastName = "Min",
                 Age = 36
             };
-
-            //Task Task1 = new Task();
-            //Task1.TaskName = "read";
-            //Task1.Description ="task1";
-            //Task1.Id = 1;
-            //Task1.IsDone = true;
 
             var Task1 = new Task
             {
